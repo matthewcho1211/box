@@ -5,4 +5,9 @@ public class Box3 extends Box{
         super(30, 30, 30);
     }
 
+    @Override
+    public String toString(){
+        return "三號箱";
+    }
+
 }
